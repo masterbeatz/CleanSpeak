@@ -9,9 +9,9 @@
 :root { /* theme custom values */
     --lightness-dark: calc(var(--lightness) - 8%);
     --lightness-really-dark: calc(var(--lightness) - 30%);
-    --custom-color-light-grey: #353844;
-    --custom-color-dark-grey: #252A33;
-    --custom-color-accent-light: hsl(var(--hue), var(--saturation), var(--lightness));
+    --custom-color-light-grey: #1d1d1d;
+    --custom-color-dark-grey: #161616;
+    --custom-color-accent-light: #1a8fee;
     --custom-color-accent-dark: hsl(var(--hue), var(--saturation), var(--lightness-dark));
     --custom-color-accent-really-dark: hsl(var(--hue), var(--saturation), var(--lightness-really-dark));
     --custom-color-off-white: #e0e0e0;
@@ -19,7 +19,7 @@
     --custom-value-scrollbar-width: 3px;
     --custom-value-font: 'Roboto Condensed', sans-serif;
     --custom-value-font-weight: 300;
-    --custom-color-chat-bubble-code: #141922;
+    --custom-color-chat-bubble-code: #090909;
     --custom-color-channel-commander-light: rgb(255, 205, 29);
     --custom-color-channel-commander-dark: #8d7007;
 }
@@ -35,29 +35,12 @@
     --tsv-button-hover-bg: var(--custom-color-accent-light) !important;
     --ts-menu-action-color: var(--custom-color-accent-dark) !important;
     --tsv-icon-folder: var(--custom-color-accent-light) !important;
-    --tsv-chat-remote-bg: transparent !important;
-    --tsv-chat-self-bg: transparent !important;
-    --tsv-chat-deleted-bg: transparent !important;
     --tsv-chat-remote-font-color: var(--custom-color-off-white) !important;
     --tsv-chat-self-font-color: var(--custom-color-off-white) !important;
     --tsv-chat-deleted-font-color: rgba(255, 130, 130, 0.25) !important;
-    --tsv-chat-link-color: var(--custom-color-accent-light) !important;
     --ts-chat-system-highlight-text-color: var(--custom-color-accent-light) !important;
     --tsv-content-branding-fancy-bg: var(--tsv-content-branding-bg) !important;
     --tsv-highlight-color: var(--custom-color-accent-light) !important;
-}
-
-.tsv-icon-teamspeak-logo {
-    display: none;
-}
-
-.ts-loading-view-content::after {
-    content: "";
-    position: absolute;
-    transform: translate(-50%, -50%);
-    width: 200px;
-    height: 200px;
-    background: center/contain url("TS_fancy.png");
 }
 
 .tsv-body-background {
@@ -65,7 +48,7 @@
 }
 
 .ts-chat-room-event-detailed {
-    --tsv-padding-v: 2px;
+    --tsv-padding-v: 8px;
 }
 
 .tsv-sidebar-header-accessories {
