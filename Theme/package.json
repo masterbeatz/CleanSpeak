@@ -1,7 +1,7 @@
 {
   "name": "CleanSpeak",
   "description": "Dark Theme by Gamer92000",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "identifier": "de.julianimhof.cleanspeak",
   "engines": {
     "teamspeak": 1
@@ -52,6 +52,12 @@
         "image": "blue1.png"
       },
       {
+        "name": "​​​CleanSpeak DARKBLUE",
+        "source": "Dave.css",
+        "apiVersion": 1,
+        "image": "dave.png"
+      },
+      {
         "name": "​​​​CleanSpeak PURPLE",
         "source": "Purple.css",
         "apiVersion": 1,
@@ -66,6 +72,12 @@
       {
         "name": "​​​​​​xX_CleanSpeak_XxHDTV",
         "source": "Gamer.css",
+        "apiVersion": 1,
+        "image": "gamer1.png"
+      },
+      {
+        "name": "​​​​​​​Screech",
+        "source": "Screech.css",
         "apiVersion": 1,
         "image": "gamer1.png"
       }
