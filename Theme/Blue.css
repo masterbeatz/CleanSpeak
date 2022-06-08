@@ -1,11 +1,10 @@
 @import url(Gamer92000.css);
 
-:root {
+:root, ::after, ::before {
     --hue: 200;
     --saturation: 80%;
     --lightness: 50%;
     --tsv-chat-remote-bg: #141414 !important;
     --tsv-chat-self-bg: #2094ce !important;
-    --tsv-chat-deleted-bg: transparent !important; /*Can't Test*/
     --tsv-chat-link-color: #002ba1 !important;
 }
